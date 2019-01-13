@@ -1,2 +1,2 @@
 # python-flashapp
-A small python app demonstrating the Flash web framework
+A small python app demonstrating the Flask web framework

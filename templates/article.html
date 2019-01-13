@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+    {% if article %}
+        {% if article is mapping %}
+            <p>{{ article.author}}</p>
+            <p>{{ article.body}}</p>
+            <p>{{ article.create_date}}</p>
+        {% else %}
+            <p> {{ article }}</p>
+        {% endif %}
+    {% endif %}
+{% endblock %}
